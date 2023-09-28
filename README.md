@@ -30,10 +30,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![projec2_p1_onewalkthrough](https://github.com/Davidfaleye360/flash_card/assets/132557877/26df3e61-b03d-4b0e-b9ee-9aa1d2f9f2b2)
+
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ... licecap  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
