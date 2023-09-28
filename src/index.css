@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+.card {
+  background-color: #40ff0025;
+  padding: 20px;
+  border-radius: 8px;
+  width: 600px;
+  max-width: 600px;
+  height: 250px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #141210;
+}
+
+button {
+  font-size: 1rem;
+  background-color: rgb(22, 18, 19);
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.red {
+  background-color: #ff00002c;
+}
+
+.green {
+  background-color: #59ff0046;
+}
+
+.yellow {
+  background-color: #f2ff0054;
+}
