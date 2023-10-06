@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import './index.css'
 
+
 const allData = [{
   question: "Start",
   answer: "Press the next arrow to start the flashcards :)"
@@ -167,6 +168,17 @@ function App() {
       set_q_num(1)
     } setq('question')
   }
+  const prev = () => {
+    if (q_num > 0) {
+      set_q_num(q_num - 1)
+    } else {
+      set_q_num(0)
+    } setq('question')
+  }
+  const shuffle = () => {
+    set_q_num(Math.floor(Math.random() * 46))
+    setq('question')
+  }
   return (
     <div className="container">
       <h1>Test your knowlege of history</h1>
@@ -174,10 +186,19 @@ function App() {
       <h3>Number of cards: 46</h3>
       <div onClick={showAnswer} className="card">
         <h2>{allData[q_num][q]}</h2>
+
       </div>
+      <div className="guess">
+        <label htmlFor="guess">Guess the answer here:</label>
+        <input type="text" name="guess" id="guess" />
+        <button type="submit">Submit Guess</button>
+      </div>
+      <button onClick={prev} className="nextCard">⭠</button>
       <button onClick={next} className="nextCard">⭢</button>
+      <button onClick={shuffle} className="nextCard">Shuffle Cards</button>
     </div>
   )
 }
 
 export default App
+
